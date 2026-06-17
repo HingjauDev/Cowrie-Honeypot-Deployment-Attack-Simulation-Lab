@@ -1,10 +1,9 @@
 # Cowrie-Honeypot-Deployment-Attack-Simulation-Lab
 A learning purpose homelab simulation
 
-This repository documents the setup , network configuration and attack simulation of a Cowrie SSH/Telnet Honeypot deployed on an Ubuntu VM, attacked via a Kali Linux VM within a controlled Oracle VirtualBox environment. 
-
 ![Honeypot Network Diagram](diagrams/honeypot_network_diagram.jpg)
 
+This repository documents the setup , network configuration and attack simulation of a Cowrie SSH/Telnet Honeypot deployed on an Ubuntu VM, attacked via a Kali Linux VM within a controlled Oracle VirtualBox environment. 
 
 ## 🎯 Project Overview & Goal
 
