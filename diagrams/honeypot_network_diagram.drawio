@@ -10,7 +10,7 @@
         <mxCell id="Bz5cMZv4htS7pGeSeu-g-6" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;width=150;height=30;fontSize=14;fontStyle=1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Host Machine&lt;/font&gt;" vertex="1">
           <mxGeometry height="798.4" width="1910" x="100" y="-2048.4" as="geometry" />
         </mxCell>
-        <mxCell id="kV8bA4zheiEz6cT_9Qli-15" edge="1" parent="1" source="vex5tPuShzqJ45-Z2S43-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=light-dark(#B85450,#F8CECC);fillColor=#f8cecc;" target="kV8bA4zheiEz6cT_9Qli-7">
+        <mxCell id="kV8bA4zheiEz6cT_9Qli-15" edge="1" parent="1" source="vex5tPuShzqJ45-Z2S43-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=light-dark(#B85450,#F8CECC);fillColor=#f8cecc;strokeWidth=3;" target="kV8bA4zheiEz6cT_9Qli-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vex5tPuShzqJ45-Z2S43-1" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Virtual_Machine_128x128.png" value="" vertex="1">
@@ -25,7 +25,7 @@
         <mxCell id="EjcqcqMvrGd9U0Vv9VyV-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;IP: 10.0.5.5&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="250" x="195" y="-1560" as="geometry" />
         </mxCell>
-        <mxCell id="kV8bA4zheiEz6cT_9Qli-27" edge="1" parent="1" source="EjcqcqMvrGd9U0Vv9VyV-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="EjcqcqMvrGd9U0Vv9VyV-8">
+        <mxCell id="kV8bA4zheiEz6cT_9Qli-27" edge="1" parent="1" source="EjcqcqMvrGd9U0Vv9VyV-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=3;" target="EjcqcqMvrGd9U0Vv9VyV-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EjcqcqMvrGd9U0Vv9VyV-4" parent="1" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine_feature;pointerEvents=1;" value="" vertex="1">
@@ -40,7 +40,7 @@
         <mxCell id="EjcqcqMvrGd9U0Vv9VyV-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;IP: 10.0.5.4&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="250" x="1670" y="-1560" as="geometry" />
         </mxCell>
-        <mxCell id="EjcqcqMvrGd9U0Vv9VyV-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="EjcqcqMvrGd9U0Vv9VyV-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=4;" value="" vertex="1">
           <mxGeometry height="310" width="390" x="1180" y="-1840" as="geometry" />
         </mxCell>
         <mxCell id="EjcqcqMvrGd9U0Vv9VyV-9" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Operating_System__Flat_-2035/ubuntu-750.svg" value="" vertex="1">
@@ -67,19 +67,19 @@
             <mxPoint x="1400" y="-1720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kV8bA4zheiEz6cT_9Qli-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;Allow connection ONLY from&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Kali (10.0.5.5) to&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Cowrie on Port 22&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Allow SSH access to target on&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Port 2222 from all&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="kV8bA4zheiEz6cT_9Qli-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=4;" value="&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;&quot;&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Allow connection ONLY&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;from&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 17px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Kali (10.0.5.5) to&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Cowrie on Port 22&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Allow SSH access to target&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;on&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 17px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Port 2222 from all&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="300" width="310" x="810" y="-1825" as="geometry" />
         </mxCell>
-        <mxCell id="kV8bA4zheiEz6cT_9Qli-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=25;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;IPTABLES CONFIGURATION&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;(Ubuntu 10.0.5.4)&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="340" x="795" y="-1825" as="geometry" />
+        <mxCell id="kV8bA4zheiEz6cT_9Qli-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=21;fontStyle=1" value="&lt;font&gt;IPTABLES CONFIGURATION&lt;/font&gt;&lt;div&gt;&lt;font&gt;(Ubuntu 10.0.5.4)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="340" x="795" y="-1830" as="geometry" />
         </mxCell>
-        <mxCell id="kV8bA4zheiEz6cT_9Qli-14" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Filter table&amp;nbsp;" vertex="1">
+        <mxCell id="kV8bA4zheiEz6cT_9Qli-14" parent="1" style="swimlane;whiteSpace=wrap;html=1;strokeWidth=3;fontSize=15;" value="Filter table&amp;nbsp;" vertex="1">
           <mxGeometry height="210" width="240" x="850" y="-1750" as="geometry" />
         </mxCell>
         <mxCell id="kV8bA4zheiEz6cT_9Qli-23" edge="1" parent="1" source="kV8bA4zheiEz6cT_9Qli-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0.536;entryY=0.503;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" target="kV8bA4zheiEz6cT_9Qli-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kV8bA4zheiEz6cT_9Qli-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="Intercepts Traffic" vertex="1">
+        <mxCell id="kV8bA4zheiEz6cT_9Qli-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;" value="Intercepts Traffic" vertex="1">
           <mxGeometry height="30" width="90" x="1280" y="-1690" as="geometry" />
         </mxCell>
         <mxCell id="kV8bA4zheiEz6cT_9Qli-25" edge="1" parent="1" source="kV8bA4zheiEz6cT_9Qli-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="kV8bA4zheiEz6cT_9Qli-7" value="">
@@ -88,7 +88,7 @@
         <mxCell id="kV8bA4zheiEz6cT_9Qli-21" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" value="" vertex="1">
           <mxGeometry height="150" width="50" x="1180" y="-1750" as="geometry" />
         </mxCell>
-        <mxCell id="kV8bA4zheiEz6cT_9Qli-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=21;fontColor=light-dark(#F19C99,#000000);fontStyle=1" value="SSH Attack" vertex="1">
+        <mxCell id="kV8bA4zheiEz6cT_9Qli-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=23;fontColor=light-dark(#F19C99,#000000);fontStyle=1" value="SSH Attack" vertex="1">
           <mxGeometry height="30" width="130" x="550" y="-1713.3" as="geometry" />
         </mxCell>
         <mxCell id="im1hC4JBZX2z47QniVFe-1" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.nat_gateway;" value="" vertex="1">
