@@ -32,7 +32,7 @@ Standard NAT configurations isolate VMs from each other, while Host-only network
 
 ![Network Configuration for VMs](screenshots/network_config_for_vms.png)
 
-- Opsec / Stealthy Tweak: VirtualBox MAC addresses default to an OUI registered to Oracle (e.g., 08:00:27). To prevent attacker running `nmap` from immediately identifying the honeypots as a VirtualBox VM, the MAC address was spoofed/manually changed in the VirtualBox advanced network settings to resemble a standard hardware vendor (e.g. Intel or Realtek).
+- Opsec / Stealthy Tweak: VirtualBox MAC addresses default to an OUI registered to Oracle (e.g., 08:00:27) as the green arrow points to above. To prevent attacker running `nmap` from immediately identifying the honeypots as a VirtualBox VM, the MAC address was spoofed/manually changed in the VirtualBox advanced network settings to resemble a standard hardware vendor (e.g. Intel or Realtek).
 
 Default MAC Address: 
 ![Default MAC Address Scan](screenshots/nmapped_mac_address_default.png)
