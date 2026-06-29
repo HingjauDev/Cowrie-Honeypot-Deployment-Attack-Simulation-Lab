@@ -65,7 +65,15 @@ If an attacker targets Port 22, the Ubuntu host must transparently route that tr
 
 3. Persisting the Rules: Standard iptables rules wipe upon reboot. To make this persistent, iptables-persistent was utilized: 
 
-``` sudo apt```
+``` sudo apt-get install iptables-persistent ```
+``` sudo netfilter-persistent save ```
+
+![Iptables-persistent Installation](screenshots/iptable_persistent_installed.png)
+
+![Prompting to save ipv4 settings](screenshots/prompting_to_save_ipv4.png)
+
+![netfilter-persistent save](screenshots/netfilter_persistent_save.png)
+
 
 Managing UFW Conflicts
 Ubuntu's UFW can inadvertently block iptables NAT rules if not carefully aligned. 
