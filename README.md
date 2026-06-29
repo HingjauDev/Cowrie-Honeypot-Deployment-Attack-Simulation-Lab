@@ -37,7 +37,7 @@ Standard NAT configurations isolate VMs from each other, while Host-only network
 Default MAC Address scanned result: 
 ![Default MAC Address Scan](screenshots/nmapped_mac_address_default.png)
 
-Spoofed MAC Address scanned result: 
+Spoofed MAC Address scanned result:
 ![MAC Address Scan after spoofing](screenshots/nmapped_mac_address_changed.png)
 
 ## 2 Port Redirection & Firewall Configuration (iptables & UFW)
@@ -52,9 +52,9 @@ If an attacker targets Port 22, the Ubuntu host must transparently route that tr
 
 ![Default SSH port configuration in sshd_config file](screenshots/default_port_sshd_config.png)
 
-                        `&darr;`
+                        **&darr;**
 
-![Changed SSH port configuration in sshd_config file](screenshots/default_port_sshd_config.png)
+![Changed SSH port configuration in sshd_config file](screenshots/changed_port_sshd_config.png)
 
 
 
