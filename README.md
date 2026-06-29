@@ -50,6 +50,14 @@ If an attacker targets Port 22, the Ubuntu host must transparently route that tr
 
 1. Change Default SSH: First, the host machine's actual management SSH server was moved away from Port 22 (e.g., to Port 22022) in /etc/ssh/sshd_config to prevent locking ourselves out. 
 
+![Default SSH port configuration in sshd_config file](screenshots/default_port_sshd_config.png)
+
+                        `&darr;`
+
+![Changed SSH port configuration in sshd_config file](screenshots/default_port_sshd_config.png)
+
+
+
 2. Apply Prerouting Rule: The following rule was applied to redirect incoming TCP traffic on Port 22 to Port 2222. 
 
 ```sudo iptables -t nat -A PREROUTING -p tcp --dport 22 -j REDIRECT --to-ports 2222```
