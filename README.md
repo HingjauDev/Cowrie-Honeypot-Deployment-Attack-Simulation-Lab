@@ -66,6 +66,7 @@ If an attacker targets Port 22, the Ubuntu host must transparently route that tr
 3. Persisting the Rules: Standard iptables rules wipe upon reboot. To make this persistent, iptables-persistent was utilized: 
 
 ``` sudo apt-get install iptables-persistent ```
+
 ``` sudo netfilter-persistent save ```
 
 ![Iptables-persistent Installation](screenshots/iptable_persistent_installed.png)
