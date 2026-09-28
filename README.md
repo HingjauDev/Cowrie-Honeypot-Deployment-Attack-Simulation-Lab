@@ -121,7 +121,7 @@ Run commands inside the fake shell for verification, such as whoami, pwd, cd, ls
 
 ### Phase 4: Logging
 
-Go back to the Cowrie's terminal, verify if cowrie has successfully captured the invasion in logs: 
+Return to the Cowrie terminal and check the logs to verify that the attack was successfully captured: 
 
 ```tail -f /var/log/cowrie/cowrie.log```
 
