@@ -102,6 +102,7 @@ Using unix_passwords.txt is to shortening the craking time. Normally, rockyou.tx
 Note: To modify the default password for root or other default accounts:
 
     1. Open the user database: 
+    
     ```nano /etc/userdb.txt```
     
     2. Uncomment the account by removing the # prefix.
