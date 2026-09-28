@@ -66,7 +66,6 @@ If an attacker targets Port 22, the Ubuntu host must transparently route that tr
 3. Persisting the Rules: Standard iptables rules wipe upon reboot. To make this persistent, iptables-persistent was utilized: 
 
 ``` sudo apt-get install iptables-persistent ```
-
 ``` sudo netfilter-persistent save ```
 
 ![Iptables-persistent Installation](screenshots/iptable_persistent_installed.png)
@@ -74,7 +73,6 @@ If an attacker targets Port 22, the Ubuntu host must transparently route that tr
 ![Prompting to save ipv4 settings](screenshots/prompting_to_save_ipv4.png)
 
 ![netfilter-persistent save](screenshots/netfilter_persistent_save.png)
-
 
 Managing UFW Conflicts
 Ubuntu's UFW can inadvertently block iptables NAT rules if not carefully aligned. 
@@ -90,4 +88,44 @@ From the Kali Linux terminal, an aggressive service scan is initiated against th
 
 ```nmap -sV -p 22 10.0.5.4```
 
+![nmap_result_port22](/screenshots/nmap_result_port22.png)
+
+### Phase 2: Brute-Force Simulation with Hydra
+
+In the terminal of Kali again, launch a targeted SSH password brute-force attack against port 22: 
+```hydra -l root -P /usr/share/wordlists/metasploit/unix_passwords.txt ssh://10.0.5.4 -t 4```
+
+Using unix_passwords.txt is to shorten the craking time for the simulation environment. Normally, rockyou.txt is the best option with enormous passwords in it. 
+
+![Password_cracked](/screenshots/password_cracked.png)
+
+### Phase 3: Session Execution
+
+Mannually log into the honeypot using one of the Cowrie's default accepted credentials: 
+
+```ssh root@10.0.5.4 -p 22```
+
+![Log_in_root](/screenshots/log_in_root.png)
+
+Run commands inside the fake shell for verification, such as whoami, pwd, cd, ls, etc. 
+
+![Fake_shell_commands](/screenshots/fake_shell_commands.png)
+
+### Phase 4: Logging
+
+Go back to the Cowrie's terminal, verify if cowrie has successfully captured the invasion in logs: 
+
+```tail -f /var/log/cowrie/cowrie.log```
+
+![log_captured_by_cowrie](/screenshots/log_captured_by_cowrie.png)
+
+## 4 Conclusion & Key Takeways
+
+This lab demonstrates the practical deployment, network routing, and defensive value of an internal SSH honeypot using Cowrie:
+
+- Stealth Redirection: Utilizing iptables NAT PREOUTING rules allows unprivileged honeypot software (running on port 2222) to bind seamlessly to low-numbered privileged ports (port 22). This tricks network scanners (nmap) into reporting standard SSH services without granting the honeypot process root access ro the host. 
+
+- Attack Isolation: By shifting legitimate administrative access to an alternate port (22022), target host management remains secure and isolated while malicious brute-force attempts (hydra) are automatically routed into Cowries's interactive sandbox. 
+
+- High-Fidelity Telemetry: Live credential capture and keystroke logging (cowrie.log) procide actionable threat intelligence giving insight into real-world automated brute-force tools, dictionary attacks and post-exploitation commands executed by adversaries. 
 
