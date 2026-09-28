@@ -95,9 +95,17 @@ From the Kali Linux terminal, an aggressive service scan is initiated against th
 In the terminal of Kali again, launch a targeted SSH password brute-force attack against port 22: 
 ```hydra -l root -P /usr/share/wordlists/metasploit/unix_passwords.txt ssh://10.0.5.4 -t 4```
 
-Using unix_passwords.txt is to shorten the craking time for the simulation environment. Normally, rockyou.txt is the best option with enormous passwords in it. 
+Using unix_passwords.txt is to shortening the craking time. Normally, rockyou.txt is the best option with enormous passwords in it. 
 
 ![Password_cracked](/screenshots/password_cracked.png)
+
+Note: To modify the default password for root or other default accounts:
+    1. Open the user database: 
+    ```nano /etc/userdb.txt```
+    2. Uncomment the account by removing the # prefix.
+    3. Save your changes and exit the editor.
+
+![modify_root_password](/screenshots/modify_root_password.png)
 
 ### Phase 3: Session Execution
 
