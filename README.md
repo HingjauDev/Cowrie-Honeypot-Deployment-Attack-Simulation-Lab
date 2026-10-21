@@ -4,7 +4,7 @@ This repository documents the setup , network configuration and attack simulatio
 
 ![Honeypot Network Diagram](diagrams/honeypot_network_diagram.jpg)
 
-## 🎯 Project Overview & Goal
+## Project Overview & Goal
 
 The goal of this project is understanding how to setup a honeypot to trap an attacker for log analysis, mastering internal network architecture and traffic redirection using `iptables`, and analyzing adversary behavior using tools like `nmap` and `hydra`.
 
